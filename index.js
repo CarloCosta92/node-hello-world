@@ -11,3 +11,5 @@ console.log("hello carlo");
 
 const newTesto= process.argv[2];
 console.log(newTesto);
+
+//node --watch index.js "Ciao Carlo"
