@@ -7,4 +7,7 @@
 // Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”. 
 // Forse potrà servirvi qualcosa vista ieri!
 
-console.log("hello fedrica");
+console.log("hello carlo");
+
+const newTesto= process.argv[2];
+console.log(newTesto);
